@@ -38,7 +38,7 @@ angular.module('rtfmApp', ['ui.router', 'firebase'])
 
     })
     .state('logout', {
-      url: '/logout',
+      url: '/login',
       controller: function (userService) {
         userService.logout();
       }
