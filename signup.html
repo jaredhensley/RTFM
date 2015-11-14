@@ -1,0 +1,11 @@
+<div>
+  <h1>register page</h1>
+  <form ng-submit="register(user)">
+    <input type="password" ng-model="user.password" placeholder="enter pw...">
+    <input type="email" ng-model="user.email" placeholder="enter email address...">
+    <button ng-click="register(user)"></button>
+  </form>
+  <a ui-sref="login">
+    <button>Already have an account? Login here!</button>
+  </a>
+</div>
